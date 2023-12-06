@@ -1,4 +1,4 @@
-# Build and Deploy: TWITTER clone with React, Tailwind, Next, Prisma, Mongo, NextAuth & Vercel (2023)
+# Build : Social Network with React, Tailwind, Next, Prisma, Mongo, NextAuth & Vercel (2023)
 
 We are going to learn funcionalities such as:
 
