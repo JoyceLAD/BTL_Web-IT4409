@@ -61,7 +61,14 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
               value={body}
               className="
                 disabled:opacity-80
-    
+                peer
+                resize-none 
+                mt-3 
+                w-full 
+                bg-black 
+                ring-0 
+                outline-none 
+                text-[20px] 
                 placeholder-neutral-500 
                 text-white
               "
