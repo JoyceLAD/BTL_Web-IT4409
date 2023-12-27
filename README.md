@@ -38,6 +38,12 @@ NEXTAUTH_SECRET=
 npm run dev
 ```
 
+## If you want to run Mongo replica set locally, run docker-compose file in mongo directory and change the DATABASE_URL in .env to localhost connection string
+
+```shell
+docker-compose -f mongo/docker-compose.yml up -d
+```
+
 ## Available commands
 
 Running commands with npm `npm run [command]`
@@ -45,3 +51,4 @@ Running commands with npm `npm run [command]`
 | command         | description                              |
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
+
